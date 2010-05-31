@@ -1,11 +1,9 @@
 ;; others
-(load "jarod/dired")
 (load "jarod/ruby")
 (load "jarod/shell")
 (load "jarod/javascript")
 (load "jarod/python")
 (load "jarod/sgml")
-(load "jarod/artist")
 (load "jarod/coffee")
 (load "jarod/markdown")
 
