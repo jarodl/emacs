@@ -45,3 +45,8 @@
 
 ;; set font face
 (set-face-font 'default "-andale-mono-medium-r-normal--12-0-72-72-m-0-iso10646-1")
+
+;; Highlight characters after 80 cols
+(setq whitespace-style '(lines-tail)
+    whitespace-line-column 80)
+(global-whitespace-mode 1)
