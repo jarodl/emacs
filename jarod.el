@@ -4,6 +4,7 @@
 (load "jarod/global")
 (load "jarod/defuns")
 (load "jarod/bindings")
+(load "jarod/peepopen")
 (load "jarod/modes")
 (load "jarod/theme")
 (load "jarod/git")
@@ -12,6 +13,7 @@
 (load "jarod/scala")
 (load "jarod/maxframe")
 (load "jarod/markdown")
+(load "jarod/clojure")
 
 (vendor 'cheat)
 (vendor 'magit)

@@ -61,5 +61,6 @@
 
 ;; textmate.el
 (vendor 'textmate)
+(require 'peepopen)
 (textmate-mode)
-(setq textmate-find-files-command "git ls-tree --full-tree --name-only -r HEAD")
+(setq ns-pop-up-frames nil)
